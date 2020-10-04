@@ -96,7 +96,7 @@ class InstagramPyScript:
 
         # Finished Parsing the Custom Attack Script , Start The Attack.
         self.no_of_threads = len(self.threads)
-        while self.no_of_threads is not 0:
+        while self.no_of_threads != 0:
             for i in self.threads:
                 if self.threads[i]['terminated'] is True:
                     continue  # next iteration
